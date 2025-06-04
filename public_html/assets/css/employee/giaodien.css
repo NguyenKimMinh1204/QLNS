@@ -1,0 +1,81 @@
+
+.full-width{
+    width: 100%;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}  
+
+.employee-info {
+    display: flex;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.avatar {
+    flex: 0 0 150px; 
+    margin-right: 20px;
+}
+
+.avatar img {
+    width: 90%;
+    height: 80%;
+    border-radius: 10%;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.details h2 {
+    margin: 0;
+    color: black;
+}
+
+.details p {
+    margin: 5px 0;
+    color: black;
+}
+
+.main-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sidebar {
+    flex: 0 0 200px; 
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    cursor: pointer;
+    margin:  0;
+    transition: background-color 0.3s;
+}
+
+.sidebar li:hover {
+    background-color: #f0f0f0;
+}
+
+.content {
+    flex: 1; 
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}

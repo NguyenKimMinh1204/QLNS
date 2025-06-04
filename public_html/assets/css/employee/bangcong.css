@@ -1,0 +1,102 @@
+.calendar {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    .calendar th {
+        background-color: #f4f4f4;
+        color: #333;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid #ddd;
+    }
+
+    .calendar td {
+        border: 1px solid #ddd;
+        vertical-align: top;
+        position: relative;
+    }
+
+    .calendar .date {
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 5px;
+        text-align: center;
+        color: #555;
+    }
+
+    .bg-vang {
+        background-color: #ffeb3b;
+        /* Màu vàng */
+        color: #333;
+    }
+
+    .bg-xanhla {
+        background-color: #4caf50;
+        /* Màu xanh lá */
+        color: white;
+    }
+
+    .bg-xanhduong {
+        background-color: #2196f3;
+        /* Màu xanh dương */
+        color: white;
+    }
+
+    .bg-do {
+        background-color: #f44336;
+        /* Màu đỏ */
+        color: white;
+    }
+
+    .calendar .attendance-info {
+        margin-top: 30px;
+        font-size: 12px;
+        color: #666;
+        text-align: left;
+        padding: 5px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        height: 50px;
+    }
+
+    .calendar .delay-info {
+        color: #ff5722;
+        /* Màu cam cho thời gian đi trễ */
+    }
+
+    .calendar .early-info {
+        color: #9c27b0;
+        /* Màu tím cho thời gian về sớm */
+    }
+
+    .calendar .leave-info {
+        font-size: 12px;
+        font-style: italic;
+        color: #3f51b5;
+        /* Màu xanh đậm cho nghỉ phép */
+        margin-top: 5px;
+        display: inline-block;
+    }
+
+    .calendar tr {
+        height: 70px;
+    }
+
+    .alert {
+        padding: 15px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+
+    .alert-info {
+        background-color: #d9edf7;
+        color: #31708f;
+    }
+
+    .alert-danger {
+        background-color: #f2dede;
+        color: #a94442;
+    }

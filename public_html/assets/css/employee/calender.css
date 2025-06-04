@@ -1,0 +1,78 @@
+ .hight1 {
+        min-height: 900px;
+    }
+
+    .calendar {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    .calendar th {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+    }
+
+    .calendar td {
+        width: 150px;
+        height: 200px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        vertical-align: top;
+    }
+
+    .off-day {
+        background-color: #f8f9fa;
+    }
+
+    .date {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .cong {
+        font-size: 24px;
+        font-weight: bold;
+        color: green;
+        display: block;
+        margin-top: 10px;
+        height: 4em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .time-in,
+    .time-out {
+        display: block;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .time-in i,
+    .time-out i {
+
+        display: block;
+        font-size: 18px;
+        color: #007bff;
+        float: left;
+        width: 45%;
+        /* Blue color for icons */
+    }
+
+    .time-in p,
+    .time-out p {
+        display: block;
+        float: left;
+        width: 45%;
+        font-size: 14px;
+    }

@@ -1,0 +1,38 @@
+[
+    {
+        "full_name": "Nguyễn Văn A",
+        "kpi_name": "KPI Bán hàng",
+        "description": "Đạt doanh số bán hàng tối thiểu",
+        "date_start": "2024-01-01",
+        "date_end": "2024-12-31",
+        "target": 100,
+        "actual": 85,
+        "actual_value": 85000000,
+        "priority": "Cao",
+        "status_name": "Đang tiến hành"
+    },
+    {
+        "full_name": "Trần Thị B",
+        "kpi_name": "KPI Chăm sóc khách hàng",
+        "description": "Giảm tỷ lệ khách hàng phàn nàn",
+        "date_start": "2024-02-01",
+        "date_end": "2024-10-31",
+        "target": 90,
+        "actual": 92,
+        "actual_value": 92000000,
+        "priority": "Trung bình",
+        "status_name": "Hoàn thành"
+    },
+    {
+        "full_name": "Lê Văn C",
+        "kpi_name": "KPI Marketing",
+        "description": "Tăng tương tác trên mạng xã hội",
+        "date_start": "2024-03-01",
+        "date_end": "2024-09-30",
+        "target": 150,
+        "actual": 120,
+        "actual_value": 120000000,
+        "priority": "Thấp",
+        "status_name": "Chưa đạt"
+    }
+]
